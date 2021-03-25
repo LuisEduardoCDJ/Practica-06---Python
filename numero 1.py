@@ -2,6 +2,7 @@
 
 personas = []
 objetos = []
+cuenta=1000
 def resposabilidad ():
   print(f"Sus datos son: \n {personas}")
   print(f"Su sueldo es:\n {objetos}")
@@ -19,7 +20,7 @@ class Persona:
 class profesor(Persona):
   def infomae (self): 
     sueldo = float(input("Digite su sueldo: "))
-    objetos.append(sueldo)
+    objetos.append(cuenta-sueldo)
 
 
 
